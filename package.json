@@ -1,11 +1,11 @@
 {
-  "name": "vue-digital-transform",
+  "name": "vue3-digital-transform",
   "version": "2.0.0",
   "private": false,
-  "main": "dist/vue-digital-transform.umd.min.js",
+  "main": "dist/digital-transform.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-digital-transform './src/components/DigitalTransform.vue'",
+    "build": "vue-cli-service build --target lib --name digital-transform './src/components/DigitalTransform.vue'",
     "build:docs": "vue-cli-service build --dest docs",
     "build:all": "npm run build & npm run build:docs",
     "test:unit": "vue-cli-service test:unit",
@@ -36,10 +36,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DakerHub/vue-digital-transform.git"
+    "url": "https://github.com/ganl/vue3-digital-transform.git"
   },
   "keywords": [
     "vue",
+    "vue3",
     "digital-transform",
     "digital-animation"
   ],

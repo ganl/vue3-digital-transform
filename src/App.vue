@@ -2,18 +2,18 @@
   <div class="container">
     <div id="app">
       <h1>
-        <img src="./assets/vdt.png" alt="vue-digital-transform" />
-        vue-digital-transform
+        <img src="./assets/vdt.png" alt="vue3-digital-transform" />
+        vue3-digital-transform
       </h1>
       <a
         class="star-me"
-        href="https://github.com/DakerHub/vue-digital-transform"
+        href="https://github.com/ganl/vue3-digital-transform.git"
         >GITHUB</a
       >
       <div>
-        <a class="shield" href="https://github.com/DakerHub" target="__blank">
+        <a class="shield" href="https://github.com/ganl" target="__blank">
           <img
-            src="https://img.shields.io/badge/Github-@DakerHub-success.svg?style=flat-square"
+            src="https://img.shields.io/badge/Github-@ganl-success.svg?style=flat-square"
             alt
           />
         </a>
@@ -25,7 +25,9 @@
         />
       </div>
       <div class="desc">
-        vue-digital-transform基于VUE3.x，致力于数字之间的动画切换动效，让数字的变换不再枯燥，让用户体验数字变化所带来的的乐趣。
+        vue3-digital-transform
+        是vue-digital-transform的VUE3升级版。致力于数字之间的动画切换动效，让数字的变换不再枯燥，让用户体验数字变化所带来的的乐趣。
+        VUE2版本地址：https://dakerhub.github.io/vue-digital-transform/。
       </div>
       <h2>尝试修改值</h2>
       <div class="demo-box">
@@ -49,12 +51,12 @@
           </div>
         </div>
         <div class="demo">
-          <DigitalTransform
+          <digital-transform
             :value="num"
             :interval="interval"
             :dislocation="dislocation"
             :use-grouping="useGrouping"
-          ></DigitalTransform>
+          ></digital-transform>
 
           <span>这是个inline元素</span>
         </div>
@@ -87,7 +89,7 @@ export default {
   data() {
     return {
       version: config.version,
-      num: 1000,
+      num: 520.1314,
       interval: 500,
       dislocation: false,
       useGrouping: false,

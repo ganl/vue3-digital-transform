@@ -1,32 +1,36 @@
-# vue-digital-transform
+# vue3-digital-transform
 
 <img src="./assets/logo.jpg" style="width:100px;"/>
 
-![](https://img.shields.io/badge/Github-@DakerHub-success.svg?style=flat-square)
-![](https://img.shields.io/badge/version-v1.1.1-success.svg?style=flat-square)
+![](https://img.shields.io/badge/Github-@ganl-success.svg?style=flat-square)
+![](https://img.shields.io/badge/version-v2.0.0-success.svg?style=flat-square)
 
 [中文文档](./README_CN)
 
-Make your changes of digtals more funny. [vue-digital-transform](https://dakerhub.github.io/vue-digital-transform/)
+Make your changes of digtals more funny. [vue3-digital-transform](https://ganl.github.io/vue3-digital-transform/)
+
+vue2 [vue-digital-transform](https://dakerhub.github.io/vue-digital-transform/)
 
 <img src="./assets/demo.gif" style="width:400px;"/>
 
 ## Install
 
 ```bash
-npm install vue-digital-transform
+npm install vue3-digital-transform
+或
+yarn add vue3-digital-transform
 ```
 
 ## Example
 
 ```html
 <template>
-  <DigitalTransform :value="num" dislocation :interval="200"></DigitalTransform>
+  <digital-transform :value="num" dislocation :interval="200"></digital-transform>
 </template>
 ```
 
 ```js
-import DigitalTransform from "vue-digital-transform";
+import DigitalTransform from "vue3-digital-transform";
 
 export default {
   components: {

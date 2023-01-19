@@ -12,7 +12,7 @@
         background: rgb(43, 43, 43);
         color: rgb(186, 186, 186);
       "
-    >npm <span class="hljs-keyword" style="color: rgb(203, 120, 50);">install</span> vue-digital-transform</pre>
+    >yarn <span class="hljs-keyword" style="color: rgb(203, 120, 50);">add</span> vue3-digital-transform</pre>
 
     <h3>使用</h3>
     <pre
@@ -24,11 +24,11 @@
         background: rgb(43, 43, 43);
         color: rgb(186, 186, 186);
       "
-    >&lt;DigitalTransform
+    >&lt;digital-transform
   <span class="hljs-symbol" style="color: rgb(224, 196, 108);">:value=<span class="hljs-string" style="color: rgb(224, 196, 108);">"number"</span></span>
   <span class="hljs-symbol" style="color: rgb(224, 196, 108);">:interval=<span class="hljs-string" style="color: rgb(224, 196, 108);">"interval"</span></span>
   <span class="hljs-symbol" style="color: rgb(224, 196, 108);">:dislocation=<span class="hljs-string" style="color: rgb(224, 196, 108);">"dislocation"</span></span>
-&gt;&lt;<span class="hljs-regexp" style="color: rgb(104, 150, 186);">/DigitalTransform&gt;</span></pre>
+&gt;&lt;<span class="hljs-regexp" style="color: rgb(104, 150, 186);">/digital-transform&gt;</span></pre>
 
     <pre
       class="hljs"
@@ -42,7 +42,7 @@
     ><span class="hljs-keyword" style="color: rgb(203, 120, 50);">import</span> DigitalTransform from <span
   class="hljs-string"
   style="color: rgb(224, 196, 108);"
->"vue-digital-transform"</span>;
+>"vue3-digital-transform"</span>;
 
 export <span class="hljs-keyword" style="color: rgb(203, 120, 50);">default</span> {
   components: {
