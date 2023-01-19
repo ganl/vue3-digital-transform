@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "DocConfig"
+  name: "DocConfig",
 };
 </script>
 

@@ -20,14 +20,12 @@
 
         <img
           class="shield"
-          :src="
-            `https://img.shields.io/badge/version-@${version}-success.svg?style=flat-square`
-          "
+          :src="`https://img.shields.io/badge/version-@${version}-success.svg?style=flat-square`"
           alt
         />
       </div>
       <div class="desc">
-        vue-digital-transform基于vue2.x，致力于数字之间的动画切换动效，让数字的变换不再枯燥，让用户体验数字变化所带来的的乐趣。
+        vue-digital-transform基于VUE3.x，致力于数字之间的动画切换动效，让数字的变换不再枯燥，让用户体验数字变化所带来的的乐趣。
       </div>
       <h2>尝试修改值</h2>
       <div class="demo-box">
@@ -84,7 +82,7 @@ export default {
     DigitalTransform,
     DocExample,
     DocConfig,
-    ClockDemo
+    ClockDemo,
   },
   data() {
     return {
@@ -92,7 +90,7 @@ export default {
       num: 1000,
       interval: 500,
       dislocation: false,
-      useGrouping: false
+      useGrouping: false,
     };
   },
   methods: {
@@ -102,8 +100,8 @@ export default {
         .toString()
         .substring(0, x + 5);
       this.num = base * x ** 10;
-    }
-  }
+    },
+  },
 };
 </script>
 

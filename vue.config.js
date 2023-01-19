@@ -1,10 +1,10 @@
 module.exports = {
   css: {
-    extract: false
+    extract: false,
   },
 
   publicPath: "",
   devServer: {
-    host: "localhost"
-  }
+    host: "localhost",
+  },
 };

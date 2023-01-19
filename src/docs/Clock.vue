@@ -21,36 +21,29 @@ import DigitalTransform from "./../components/DigitalTransform";
 export default {
   name: "ClockDemo",
   components: {
-    DigitalTransform
+    DigitalTransform,
   },
   data() {
     return {
       hours: 0,
       minutes: 0,
-      seconds: 0
+      seconds: 0,
+      t: null,
     };
   },
   created() {
-    const t = setInterval(() => {
+    this.t = setInterval(() => {
       const d = new Date();
-      this.hours = d
-        .getHours()
-        .toString()
-        .padStart(2, "0");
-      this.minutes = d
-        .getMinutes()
-        .toString()
-        .padStart(2, "0");
-      this.seconds = d
-        .getSeconds()
-        .toString()
-        .padStart(2, "0");
+      this.hours = d.getHours().toString().padStart(2, "0");
+      this.minutes = d.getMinutes().toString().padStart(2, "0");
+      this.seconds = d.getSeconds().toString().padStart(2, "0");
     }, 1000);
-
-    this.$once("hook:beforeDestory", () => {
-      clearInterval(t);
-    });
-  }
+  },
+  beforeUnmount() {
+    if (this.t) {
+      clearInterval(this.t);
+    }
+  },
 };
 </script>
 

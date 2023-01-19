@@ -20,31 +20,31 @@ import DigitalTransfromScroll from "./DigitalTransfromScroll";
 export default {
   name: "DigitalTransfrom",
   components: {
-    DigitalTransfromScroll
+    DigitalTransfromScroll,
   },
   props: {
     value: {
       validator: looseDigitalValidator,
       default: undefined,
-      required: true
+      required: true,
     },
     dislocation: {
       type: Boolean,
-      default: false
+      default: false,
     },
     interval: {
       type: Number,
-      default: 500
+      default: 500,
     },
     useGrouping: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   data() {
     return {
       digitals: [],
-      oldDigtals: []
+      oldDigtals: [],
     };
   },
   watch: {
@@ -52,15 +52,15 @@ export default {
       immediate: true,
       handler(value) {
         this.parseDigital(value);
-      }
-    }
+      },
+    },
   },
   methods: {
     parseDigital(digitals) {
       let digitalsStr = digitals + "";
 
       if (this.useGrouping) {
-        digitalsStr = digitalsStr.replace(/^-?\d+/g, m =>
+        digitalsStr = digitalsStr.replace(/^-?\d+/g, (m) =>
           m.replace(/(?=(?!\b)(\d{3})+$)/g, ",")
         );
       }
@@ -69,8 +69,8 @@ export default {
 
       this.oldDigtals = this.digitals.concat();
       this.digitals = digitalArr;
-    }
-  }
+    },
+  },
 };
 </script>
 
