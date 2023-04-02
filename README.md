@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/Github-@ganl-success.svg?style=flat-square)
 ![](https://img.shields.io/badge/version-v2.0.0-success.svg?style=flat-square)
 
-[中文文档](./README_CN)
+[中文文档](./README_CN.md)
 
 Make your changes of digtals more funny. [vue3-digital-transform](https://ganl.github.io/vue3-digital-transform/)
 

@@ -567,7 +567,7 @@ if (typeof window !== 'undefined') {
 
 ;// CONCATENATED MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DigitalTransform.vue?vue&type=template&id=1bae99df&scoped=true
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/@vue/cli-plugin-babel/node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DigitalTransform.vue?vue&type=template&id=1bae99df&scoped=true
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_DigitalTransfromScroll = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.resolveComponent)("DigitalTransfromScroll");
@@ -602,7 +602,7 @@ function looseDigitalValidator(value) {
   if (value === undefined || value === null || value === "") return true;
   return /^(\d|\.|,)+$/.test(value.toString());
 }
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DigitalTransfromScroll.vue?vue&type=template&id=29f4d705&scoped=true
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/@vue/cli-plugin-babel/node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DigitalTransfromScroll.vue?vue&type=template&id=29f4d705&scoped=true
 
 const _withScopeId = n => (_pushScopeId("data-v-29f4d705"), n = n(), _popScopeId(), n);
 const _hoisted_1 = {
@@ -622,7 +622,7 @@ function DigitalTransfromScrollvue_type_template_id_29f4d705_scoped_true_render(
 }
 ;// CONCATENATED MODULE: ./src/components/DigitalTransfromScroll.vue?vue&type=template&id=29f4d705&scoped=true
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DigitalTransfromScroll.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/@vue/cli-plugin-babel/node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DigitalTransfromScroll.vue?vue&type=script&lang=js
 
 /* harmony default export */ var DigitalTransfromScrollvue_type_script_lang_js = ({
   name: "DigitalTransformScroll",
@@ -716,7 +716,7 @@ var exportHelper = __webpack_require__(744);
 const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DigitalTransfromScrollvue_type_script_lang_js, [['render',DigitalTransfromScrollvue_type_template_id_29f4d705_scoped_true_render],['__scopeId',"data-v-29f4d705"]])
 
 /* harmony default export */ var DigitalTransfromScroll = (__exports__);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DigitalTransform.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/@vue/cli-plugin-babel/node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DigitalTransform.vue?vue&type=script&lang=js
 
 
 /* harmony default export */ var DigitalTransformvue_type_script_lang_js = ({
